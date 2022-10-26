@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <h1>survey from freecodecamples.github</h1>
+    <p class="p1" >Thanks for taking time to  help us improve our platform </p>
+    
+    <!--creat faorm-->
+<form id="survey-form">
+
+    <!--detalis-->
+    
+<div class="form-control">
+        <label for="name" id="label-name">
+            Name
+             </label>
+             
+             <!--input type form-->
+             <input type="text" id="name" class="form-control" placeholder="Enter your name" />
+             
+    </div>
+
+    <div class="form-control">
+        <label for="email" id="label-email">
+            Email
+             </label>
+             
+             <!--input type form-->
+             <input type="email, numbers, text" , id="email" class="form-control" placeholder="Enter your email" />
+             
+    </div>
+
+    <div class="form-control">
+        <label for="age" id="label-age">
+            Age <span class="clue">(optional)</span>
+             </label>
+             
+             <!--input type form-->
+             <input type="number" id="age" class="form-control" placeholder="Enter your age" />
+</div>            
+    </div>
+
+        <div class="form-contol">
+            <label for="role" id="label-role">
+        <p>Which option best describes your current role ?</p>
+            </label>
+             <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select current role</option>
+            
+                 <!--dropdown option-->
+                 name="role" id="role">
+                        <option value="student"> Student </option>
+                        <option value="full time job">Full time job </option>
+                        <option value="full time leaner">Full time leaner</option>
+                        <option value="prefer not say">Prefer not say</option>
+                        <option value="other">Other</option>
+                    </label>
+             </select>
+        </div>      
+
+            <div class="form-group">
+            
+         <p>Would you recommend freeCodeCamp to a friend?</p>
+            
+           
+                <input type="radio" id="recommend" name="recommend" class="input radio"> Definitely</input>
+                <br>
+                <input type="radio" id="recommend" name="recommend" class="input radio"> Maybe</input>
+                <br>
+                <input type="radio" id="recommend" name="recommend" class="input radio"> Not-sure</input>
+        
+
+        </div>
+ 
+        <!--favourite feature-->
+
+        <div class="form-contol">
+            <label for="feature" id="label-feature">
+         <p>What is your favorite feature of freeCodeCamp??</p>
+            </label>
+             <select id="dropdown" name="feature" class="form-control" required>
+                    <option disabled selected value>Select an option </option>
+            
+                 <!--dropdown option-->
+                 <label for="">
+                        <option value="challenges"> Challenges </option>
+                        <option value="projects">Projects </option>
+                        <option value="community">Community</option>
+                        <option value="open-source">Open-source </option>
+                        <option value="other">Other</option>
+                </label>
+             </select>
+        </div> 
+        <!--check box-->     
+
+        <div class="form-group">
+       <p>What would you like to see improved? <span>(Check all that apply)</span> </p>
+            <label>
+                <input type="checkbox" name="prefer" class="input-checkbox" value="Fronted-end projects"/>
+                        Fronted-end development
+            </label>
+             <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="back-end projects"/>
+                                        Back-end Projects
+            </label>
+             <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="data Visualization"/>
+                                        Data Visualization
+            </label>
+            <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="challenges"/>
+                                        Challenges
+            </label>
+            <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="open-source community"/>
+                                        Open-source community
+             </label>
+             <label>
+                                 <input type="checkbox" name="prefer" class="input-checkbox" value="gitter help rooms "/>
+                                    Gitter help rooms
+            </label>
+
+             <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="videos"/>
+                                        Videos
+             </label>
+            <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value=" city meetups"/>
+                                        City meetups
+            </label>
+            <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="wiki"/>
+                                        Wiki
+            </label>
+            <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="forum"/>
+                                        Forum
+            </label>
+              <label>
+                                <input type="checkbox" name="prefer" class="input-checkbox" value="additional courses"/>
+                                        Additional Courses
+             </label>
+
+
+
+        </div>
+
+        <div class="form-group">
+      <p class="p3" id="comment">Any comments or suggestions?</p>
+      <!--input type form-->
+             <textarea name="comment" id="comments" class="input-textarea" placeholder="enter your comment here..." ></textarea>
+             
+    </div>
+    </div>
+        <button type="submit" value="submit">submit</button>
+
+ </form>
+
+   
+</body>
+</html>
